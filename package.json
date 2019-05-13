@@ -4,10 +4,14 @@
   "main": "index.js",
   "repository": "https://github.com/weng112/jdnode.git",
   "scripts": {
+    "clean": "rimraf ./dist",
     "build:mkdir": "mkdir dist",
     "build:cp": "copy .\\src\\index.js .\\dist",
-    "build" :" npm run build:mkdir &&  npm run build:cp"
+    "build": " npm run clean && npm run build:mkdir &&  npm run build:cp"
   },
   "author": "cwwong <weng.112@gmail.com>",
-  "license": "MIT"
+  "license": "MIT",
+  "devDependencies": {
+    "rimraf": "^2.6.3"
+  }
 }
