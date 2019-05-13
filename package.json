@@ -1,0 +1,8 @@
+{
+  "name": "jdnode",
+  "version": "1.0.0",
+  "main": "index.js",
+  "repository": "https://github.com/weng112/jdnode.git",
+  "author": "cwwong <weng.112@gmail.com>",
+  "license": "MIT"
+}
